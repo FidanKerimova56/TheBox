@@ -144,3 +144,48 @@ header > nav > ul > li > a {
   line-height: 14px;
   color: #858ead;
 }
+
+/* !ABOUT US */
+.aboutUs-container {
+  padding: 60px 90px 150px;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.aboutUs-container > img {
+  width: 68%;
+  align-self: center;
+}
+
+.aboutUs-text {
+  padding: 40px 30px 45px 45px;
+  background-color: #2947a9;
+  width: 358px;
+  height: 410px;
+  color: white;
+  margin-left: -120px;
+}
+.aboutUs-text > h2 {
+  font-weight: 700;
+  font-size: 26.3424px;
+  margin-bottom: 30px;
+}
+.aboutUs-text > p {
+  font-weight: 400;
+  font-size: 14.6346px;
+}
+
+.bottom-text {
+  margin-bottom: 55px;
+}
+.makeHistory_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 15px;
+  cursor: pointer;
+  color: #2947A9;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
